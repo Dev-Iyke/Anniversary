@@ -1,6 +1,7 @@
 import JSConfetti from 'js-confetti'
 import './index.css';
-import babeImage from '../babe.jpeg';
+// import babeImage from '../babe.jpeg';
+import babeImage from '../sucre.JPG';
 
 const imgElement = document.createElement('img');
 imgElement.src = babeImage; // Dynamically assign the Webpack-processed path
