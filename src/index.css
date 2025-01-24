@@ -19,7 +19,7 @@ body {
     align-items: center;
     background-color: navy;
     color: #eee;
-     margin-bottom: 4.5rem;
+    margin-bottom: 4.5rem;
 }
 .hero{
     width: 100%;
@@ -30,14 +30,15 @@ body {
     font-size: 2rem;
 }
 .img{
-    width: 300px;
+    width: 90%;
     margin: 0 auto 2rem;
 }
 img{
     width: 100%;
+    display: block;
 }
 .message{
-    width: 60%;
+    width: 90%;
     font-size: 1.3rem;
     font-family: "Poppins", sans-serif;
     letter-spacing: .1rem;
@@ -69,19 +70,39 @@ button:hover {
     display: none;
 }
 
-@media (max-width:550px) {
+@media (min-width:450px) {
     .hero{
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
     .img{
-        width: 90%;
+        width: 85%;
     }
     .message{
-        width: 85%;
+        width: 80%;
         font-size: 1.7rem;
         line-height: 2.2rem;
         font-family: "Poppins", sans-serif;
         letter-spacing: .1rem;
+    }
+    .message h2{
+        font-size: 4rem;
+    }
+}
+
+@media (min-width:850px) {
+    .hero{
+        font-size: 3.3rem;
+    }
+    .img{
+        width: 60%;
+        max-width: 600px;
+    }
+    .message{
+        width: 70%;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: .15rem;
     }
     .message h2{
         font-size: 4rem;
